@@ -1,0 +1,23 @@
+.header {
+  width: 100%;
+  height: 100px;
+  background-image: url(../src/images/unnamed.svg);
+  background-size: 25vh 25vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.header::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 95%;
+  height: 2px;
+  background-color: black;
+  bottom: 0;
+}
+
+
